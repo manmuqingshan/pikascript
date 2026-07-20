@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784467957732,
+  "lastUpdate": 1784565814037,
   "repoUrl": "https://github.com/manmuqingshan/pikascript",
   "entries": {
     "Benchmark": [
@@ -55998,6 +55998,108 @@ window.BENCHMARK_DATA = {
             "value": 0.005000244129002762,
             "unit": "ms/iter",
             "extra": "iterations: 352658\ncpu: 0.005 ms\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "liang6516@outlook.com",
+            "name": "pikastech",
+            "username": "pikasTech"
+          },
+          "committer": {
+            "email": "liang6516@outlook.com",
+            "name": "pikastech",
+            "username": "pikasTech"
+          },
+          "distinct": true,
+          "id": "13ed4fe10b75773c0b7fd4e1e2e31094721982e6",
+          "message": "chore: reconcile Gitee release history",
+          "timestamp": "2026-07-20T17:26:36+08:00",
+          "tree_id": "f0fb7f88c85d62bfb85124fb835a3c38d2f42ca7",
+          "url": "https://github.com/manmuqingshan/pikascript/commit/13ed4fe10b75773c0b7fd4e1e2e31094721982e6"
+        },
+        "date": 1784565810912,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "Performance Points",
+            "value": 16734.062897617012,
+            "unit": "Point/iter",
+            "extra": "iterations: 1\ncpu: 16734.062897617012 Point\nthreads: 1"
+          },
+          {
+            "name": "for_loop_10000",
+            "value": 22.08733661493432,
+            "unit": "ms/iter",
+            "extra": "iterations: 80\ncpu: 22.087179718664387 ms\nthreads: 1"
+          },
+          {
+            "name": "while_loop_10000",
+            "value": 13.360139548315509,
+            "unit": "ms/iter",
+            "extra": "iterations: 132\ncpu: 13.359639259520554 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_1000",
+            "value": 15.072945299055386,
+            "unit": "ms/iter",
+            "extra": "iterations: 118\ncpu: 15.072827081312827 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_default_1000",
+            "value": 4.870711517364256,
+            "unit": "ms/iter",
+            "extra": "iterations: 376\ncpu: 4.870497752136539 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_kwargs_1000",
+            "value": 9.239799391434468,
+            "unit": "ms/iter",
+            "extra": "iterations: 191\ncpu: 9.239730761176338 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_kwargs_large_constpool_1000",
+            "value": 10.673834402221674,
+            "unit": "ms/iter",
+            "extra": "iterations: 166\ncpu: 10.6733189827558 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_starred_1000",
+            "value": 27.338185373888862,
+            "unit": "ms/iter",
+            "extra": "iterations: 61\ncpu: 27.33753529004548 ms\nthreads: 1"
+          },
+          {
+            "name": "fibonacci_recursive_20",
+            "value": 77.73681934484028,
+            "unit": "ms/iter",
+            "extra": "iterations: 23\ncpu: 77.73420110782402 ms\nthreads: 1"
+          },
+          {
+            "name": "embedded_control_loop_1000",
+            "value": 16.90404610780475,
+            "unit": "ms/iter",
+            "extra": "iterations: 105\ncpu: 16.903860092698938 ms\nthreads: 1"
+          },
+          {
+            "name": "for_print_1000",
+            "value": 11.212707509969533,
+            "unit": "ms/iter",
+            "extra": "iterations: 158\ncpu: 11.21221885842602 ms\nthreads: 1"
+          },
+          {
+            "name": "prime_number_100",
+            "value": 2.9879425380525966,
+            "unit": "ms/iter",
+            "extra": "iterations: 589\ncpu: 2.9879175371762328 ms\nthreads: 1"
+          },
+          {
+            "name": "prime_number_100_c",
+            "value": 0.005000146525354644,
+            "unit": "ms/iter",
+            "extra": "iterations: 352620\ncpu: 0.005 ms\nthreads: 1"
           }
         ]
       }
