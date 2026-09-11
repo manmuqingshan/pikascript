@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785896162098,
+  "lastUpdate": 1789129823389,
   "repoUrl": "https://github.com/manmuqingshan/pikascript",
   "entries": {
     "Benchmark": [
@@ -56304,6 +56304,108 @@ window.BENCHMARK_DATA = {
             "value": 0.005000433416308321,
             "unit": "ms/iter",
             "extra": "iterations: 315467\ncpu: 0.004999999999999999 ms\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "88232613+pikasTech@users.noreply.github.com",
+            "name": "Lyon",
+            "username": "pikasTech"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99ea8246ccaa3cc0b444df6f921efa574e914ec9",
+          "message": "Merge pull request #381 from akkako/fix/shell-block-else\n\nfix(shell): keep else/elif/except/finally inside multi-line REPL block",
+          "timestamp": "2026-09-11T15:08:41+08:00",
+          "tree_id": "9d4880fdbdd87f2b21e6a5118b6565d9cc71881e",
+          "url": "https://github.com/manmuqingshan/pikascript/commit/99ea8246ccaa3cc0b444df6f921efa574e914ec9"
+        },
+        "date": 1789129818932,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "Performance Points",
+            "value": 16426.23361987251,
+            "unit": "Point/iter",
+            "extra": "iterations: 1\ncpu: 16426.23361987251 Point\nthreads: 1"
+          },
+          {
+            "name": "for_loop_10000",
+            "value": 21.709260016637085,
+            "unit": "ms/iter",
+            "extra": "iterations: 81\ncpu: 21.70844716862237 ms\nthreads: 1"
+          },
+          {
+            "name": "while_loop_10000",
+            "value": 13.497486326511238,
+            "unit": "ms/iter",
+            "extra": "iterations: 132\ncpu: 13.496246759694026 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_1000",
+            "value": 14.278486176871748,
+            "unit": "ms/iter",
+            "extra": "iterations: 123\ncpu: 14.277534218034003 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_default_1000",
+            "value": 4.530824400256928,
+            "unit": "ms/iter",
+            "extra": "iterations: 388\ncpu: 4.530544009411505 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_kwargs_1000",
+            "value": 8.868458382511246,
+            "unit": "ms/iter",
+            "extra": "iterations: 199\ncpu: 8.867911905786842 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_kwargs_large_constpool_1000",
+            "value": 10.204031242534912,
+            "unit": "ms/iter",
+            "extra": "iterations: 173\ncpu: 10.203172663812788 ms\nthreads: 1"
+          },
+          {
+            "name": "function_call_starred_1000",
+            "value": 26.175845536990437,
+            "unit": "ms/iter",
+            "extra": "iterations: 67\ncpu: 26.17402756282906 ms\nthreads: 1"
+          },
+          {
+            "name": "fibonacci_recursive_20",
+            "value": 75.17399738467351,
+            "unit": "ms/iter",
+            "extra": "iterations: 23\ncpu: 75.16945571937372 ms\nthreads: 1"
+          },
+          {
+            "name": "embedded_control_loop_1000",
+            "value": 16.70026344233593,
+            "unit": "ms/iter",
+            "extra": "iterations: 106\ncpu: 16.699229248027002 ms\nthreads: 1"
+          },
+          {
+            "name": "for_print_1000",
+            "value": 10.318940491850709,
+            "unit": "ms/iter",
+            "extra": "iterations: 167\ncpu: 10.318221492189704 ms\nthreads: 1"
+          },
+          {
+            "name": "prime_number_100",
+            "value": 3.0441025474211836,
+            "unit": "ms/iter",
+            "extra": "iterations: 579\ncpu: 3.0439114137223666 ms\nthreads: 1"
+          },
+          {
+            "name": "prime_number_100_c",
+            "value": 0.005000313748846108,
+            "unit": "ms/iter",
+            "extra": "iterations: 352362\ncpu: 0.005 ms\nthreads: 1"
           }
         ]
       }
